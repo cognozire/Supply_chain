@@ -27,6 +27,6 @@ if st.button("Submit"):
     st.image('graph.jpeg', caption='Network of Plants and Ports')
     a,b,c,d = df.loc[df['Order_ID'] == option]["decision"].values[0].split(',')
     st.write(f'Minimum cost for the order: {round(float(a[1:]), 3)}')
-    st.write(f'Best plant for processing the order: {round(float(b), 3)}')
-    st.write(f'Best port to sent the order from: {round(float(d[:-1]),3)}')
+    st.write(f'Best plant for processing the order: {b}')
+    st.write(f'Best port to sent the order from: {d[:-1]}')
     st.write(f'Best port price: {round(float(c), 3)}')
