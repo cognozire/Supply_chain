@@ -2,6 +2,21 @@ import streamlit as st
 import pandas as pd
 df = pd.read_csv("orders.csv")
 
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://img.freepik.com/premium-photo/green-background-with-bokeh-rays_582451-37.jpg");
+background-size: cover;
+background-position: top left;
+background-repeat: no-repeat;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.title("Production and Transportation Scheduling")
 
 option = st.selectbox(
