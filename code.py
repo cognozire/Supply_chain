@@ -5,7 +5,7 @@ df = pd.read_csv("orders.csv")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://img.freepik.com/premium-photo/green-background-with-bokeh-rays_582451-37.jpg");
+background-image: url("https://st3.depositphotos.com/2114317/12566/v/450/depositphotos_125664968-stock-illustration-car-overpass-city-infrastructure-urban.jpg");
 background-size: cover;
 background-position: top left;
 background-repeat: no-repeat;
