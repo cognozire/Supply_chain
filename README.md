@@ -1,7 +1,5 @@
 ## Facility Assignment and Routing Problem: Finding the Optimal Solution
 
-This notebook tackles a facility assignment and routing problem, aiming to minimize the cost of assigning orders to plants and carriers. 
-
 **The Problem:** Given a set of orders, we need to:
 
 1. **Assign Orders to Plants:**  Determine the most suitable plant to process each order considering product restrictions and vendor-managed inventory (VMI) constraints.
@@ -36,8 +34,4 @@ This notebook tackles a facility assignment and routing problem, aiming to minim
 * **`min_cost(dec_space)`:** Finds the cheapest plant-port combination for a given set of possible plants.
 * **`find_best_port(plant_id)`:** Determines the best port for shipping from a given plant based on freight rates.
 
-**Results:** The notebook successfully assigns orders to plants and ports, considering all restrictions. The "decision" column in the order table displays the assigned plant, port, and associated cost.
-
-**Next Steps:**
-
-* Implement an optimization algorithm (e.g., linear programming) to find the optimal solution. 
+**Web Link**: https://supplychain12.streamlit.app/
