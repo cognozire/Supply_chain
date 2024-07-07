@@ -5,7 +5,7 @@ df = pd.read_csv("orders.csv")
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://st3.depositphotos.com/2114317/12566/v/450/depositphotos_125664968-stock-illustration-car-overpass-city-infrastructure-urban.jpg");
+background-image: url("https://static.vecteezy.com/system/resources/previews/034/795/660/non_2x/global-logistics-network-connection-background-concept-with-big-data-visualization-cloud-computing-and-transportation-illustration-eps10-free-vector.jpg");
 background-size: cover;
 background-position: top left;
 background-repeat: no-repeat;
